@@ -1,18 +1,45 @@
-# React + Vite
+# Flot RT - табло расписаний рейсов
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Небольшой фронтенд-проект, цель которого - сделать красивое и понятное табло, где отображается страница расписаний рейсов.
 
-Currently, two official plugins are available:
+Идея простая: быстро увидеть, **что летит, когда летит и куда летит**, без перегруза интерфейса.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## О проекте
 
-## React Compiler
+`Flot RT` - это интерфейс табло для отображения рейсов в реальном времени (или с частым обновлением данных).
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+В фокусе:
+- чистая и читаемая таблица расписания;
+- статусы рейсов (по расписанию, задержан, посадка, вылетел);
 
-Note: This will impact Vite dev & build performances.
+## Технологии
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- CSS Modules + общие стили (`reset.css`, `font.css`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Быстрый старт
+
+```bash
+npm install
+npm run dev
+```
+
+После запуска открой адрес из терминала (обычно `http://localhost:5173`).
+
+## Структура и развитие
+
+Планируется добавить:
+- источник данных рейсов (API / mock);
+- фильтрацию по направлению и статусу;
+- поиск по номеру рейса;
+- автообновление расписания;
+- отдельные состояния загрузки и ошибок.
+
+## Зачем этот проект
+
+Проект создается как основа для реального “flight board” интерфейса: аккуратного, быстрого и удобного для пользователей.
+
+---
+
+Если хочешь, в следующем шаге могу сразу подготовить секцию с демо-скриншотом и шаблон для будущего API (`/flights` + пример формата ответа).
