@@ -1,8 +1,33 @@
 @font-face {
   font-family: "Bounded";
-  src: local("Bounded"), local("Bounded Regular");
+  src:
+    local("Bounded Variable"),
+    local("Bounded-Variable"),
+    url("../../shared/fonts/bounded/Bounded-Variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bounded";
+  src:
+    local("Bounded Regular"),
+    local("Bounded-Regular"),
+    url("../../shared/fonts/bounded/Bounded-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bounded";
+  src:
+    local("Bounded Black"),
+    local("Bounded-Black"),
+    url("../../shared/fonts/bounded/Bounded-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
   font-display: swap;
 }
 

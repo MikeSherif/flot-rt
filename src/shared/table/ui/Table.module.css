@@ -1,0 +1,36 @@
+.tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.table {
+  background: #c4c4c426;
+  border-radius: 30px;
+  padding: 32px 28px;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: 2fr 1.1fr 1.1fr 0.9fr 1.2fr;
+  align-items: start;
+  gap: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.headCell {
+  font-family: "Bounded", "Inter", "Segoe UI", "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18.92px;
+  line-height: 130%;
+  letter-spacing: 0;
+  color: #000;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #afafaf;
+  text-decoration-thickness: 20%;
+  text-decoration-skip-ink: auto;
+  text-underline-offset: 25%;
+}

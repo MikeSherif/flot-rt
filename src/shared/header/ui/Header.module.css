@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    color: #2D3D80;
+    font-family: Bounded;
+    font-weight: 566;
+    font-size: 32px;
+    line-height: 114.99999999999999%;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+}
+
+.date {
+    color: #7E90DD;
+    font-family: Bounded;
+    font-weight: 566;
+    font-size: 21.26px;
+    line-height: 114.99999999999999%;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: #2D3D80;
+    padding: 20px 40px;
+    border-radius: 35px;
+}
+
+.description__text {
+    color: #fff;
+    font-family: Bounded;
+    font-weight: 400;
+    font-size: 21.26px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: #239F0D;
+    padding: 20px 40px;
+    border-radius: 35px;
+}
+
+.buy__text {
+    color: #fff;
+    font-family: Bounded;
+    font-weight: 400;
+    font-size: 21.26px;
+}
+
+.buy__text:first-child {
+    color: #010824;
+    font-size: 18px;
+    line-height: 1;
+}

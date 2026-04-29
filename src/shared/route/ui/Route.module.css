@@ -1,0 +1,17 @@
+.row {
+  display: grid;
+  grid-template-columns: 2fr 1.1fr 1.1fr 0.9fr 1.2fr;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #afafaf;
+}
+
+.cell {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 21.42px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000;
+}
